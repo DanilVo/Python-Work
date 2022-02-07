@@ -1,5 +1,5 @@
 # Показать числа от -N до N
 
-num = int(input('enter your num: '))*-1
-for result in num:
-    print(result+1)
+num = int(input('enter your num: '))
+for x in range(-num,num+1):
+    print(x)
