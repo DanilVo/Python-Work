@@ -6,4 +6,4 @@ bow = 1
 
 for i in range (1,num2+1):
     bow = bow * num1
-print(i)
+print(bow)
