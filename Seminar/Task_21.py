@@ -11,6 +11,8 @@ for i in range(len(list1)):
     if n == list1[i]:
         list.append(i)
 print(list[1])
+    # elif n!= list[i]:
+    #     print('-1')
 
 
 
