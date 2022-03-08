@@ -3,7 +3,7 @@
 list = ['123sdasd', '345fgfd', '5345fsdfgf']
 n = input('set symbol to find: ')
 for i in list:
-    if n == i:
+    if n in i:
         print('it is')
     else:
         print('not there')
