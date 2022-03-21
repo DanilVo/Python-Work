@@ -1,10 +1,10 @@
 import read
-
-print('what you want to do?\n1:read\n2:write')
-j = input()
+from colorama import Fore, Back, Style
+print(Back.CYAN + 'what you want to do?\n1:read\n2:write')
+j = input(Style.RESET_ALL)
 while j != 1 and j != 2 and j != '1' and j != '2':
-    print('please enter correct operation!')
-    j = input()
+    print(Fore.GREEN+'please enter correct operation!')
+    j = input(Style.RESET_ALL)
 if j == 1 or j =='1':
     print(read.book_open())
 elif j == 2 or j == '2':
