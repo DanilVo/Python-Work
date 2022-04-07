@@ -8,12 +8,12 @@
 # print('back to normal now')
 
 
-# # import webbrowser
-# # j = int(input())
-# # if j == 1:
-# #     webbrowser.open('http://net-informations.com/python/net/browser.htm#:~:text=Using%20the%20web%20browser%20in,and%20use%20open()%20function.')
-# # else:
-# #     print('no')
+# import webbrowser
+# j = int(input())
+# if j == 1:
+#     webbrowser.open('http://net-informations.com/python/net/browser.htm#:~:text=Using%20the%20web%20browser%20in,and%20use%20open()%20function.')
+# else:
+#     print('no')
 
 
 
@@ -29,4 +29,8 @@
 # c = list(filter(a,b))
 
 
+def myfunc(a, b):
+  return a+b
 
+x = map(myfunc, ('apple', 'banana', 'cherry'),'apple', 'banana', 'cherry')
+print(x)

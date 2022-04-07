@@ -28,10 +28,10 @@ win = tk.Tk()
 win.geometry('300x400+100+200')
 win.title('Button test')
 
-btn1 = tk.Button(win,text='hello',    # set button that displays 'hello'
+btn1 = tk.Button(win,text='hello',    # shows button that displays 'hello'
 command=say_hello)                    # and returns 'hello' in console as written in function
 
-btn2 = tk.Button(win,text='Add new lable',  # set button that displays 'add new lable'
+btn2 = tk.Button(win,text='Add new lable',  # shows button that displays 'add new lable'
 command=add_lable)                          # and returns 'new' in program as 'lable' as written in function
 
 btn3 = tk.Button(win,text='Add new lambda',
@@ -55,3 +55,7 @@ btn4.pack()
 btn5.pack()
 
 win.mainloop()
+
+#.grid() allows us to use variables as table
+# columnspan= / rowspan=  how many columns or rows will element take(grid)
+#stick= with side to pin our object(n,s,w,e)
