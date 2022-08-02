@@ -20,7 +20,7 @@ class MyGridLayout(Widget):
         pizza = self.pizza.text
         color = self.color.text
         # Prints it to screen
-        print(f'hello {name}m your favorite pizza is {pizza}, your favorite color is {color}')
+        print(f'hello {name} your favorite pizza is {pizza}, your favorite color is {color}')
 
         self.name.text = ''
         self.pizza.text = ''

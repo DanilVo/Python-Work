@@ -1,3 +1,4 @@
+#: import utils kivy.utils
 <MyGridLayout>
 
     name:name
@@ -34,4 +35,5 @@
             font_size:32
             on_press: root.press()
             background_normal: ''
-            background_color: (100,0,0,1)
+            #background_color: (238/255.0,250/255,0/255.0,1)
+            background_color: utils.get_color_from_hex('#eefa00') 
